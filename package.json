@@ -1,0 +1,23 @@
+{
+  "name": "rand-perm",
+  "version": "1.0.0",
+  "description": "returns an array of random permutation efficiently(O(n))",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incessantmeraki/rand-perm.git"
+  },
+  "keywords": [
+    "random-permutatation",
+    "array"
+  ],
+  "author": "Ashwin Kandel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incessantmeraki/rand-perm/issues"
+  },
+  "homepage": "https://github.com/incessantmeraki/rand-perm#readme"
+}
