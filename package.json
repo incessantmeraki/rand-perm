@@ -1,18 +1,23 @@
 {
   "name": "rand-perm",
-  "version": "1.0.0",
-  "description": "returns an array of random permutation efficiently(O(n))",
+  "version": "1.1.0",
+  "description": "randomly shuffles element between 0 and n-1 (<n)",
   "main": "index.js",
+  "dependencies": {
+    "tape": "^4.8.0",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "node example.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/incessantmeraki/rand-perm.git"
   },
   "keywords": [
-    "random-permutatation",
-    "array"
+    "shuffled-array",
+    "random-permutation"
   ],
   "author": "Ashwin Kandel",
   "license": "MIT",

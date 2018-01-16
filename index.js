@@ -4,7 +4,7 @@ module.exports = function (n) {
 
   //initializes list
   for (i = 0; i < n; i++) numbers[i] = i
-  
+
   //random shuffle logic
   for (i = 0; i < n; i++) {
     var pos = n - i - 1;
@@ -12,7 +12,7 @@ module.exports = function (n) {
     var tmp = numbers[spos]
     numbers[spos] = numbers[pos]
     numbers[pos] = tmp
-  } 
+  }
   return numbers
 }
 

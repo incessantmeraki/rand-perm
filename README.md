@@ -2,6 +2,7 @@
 
 returns an array of random permutation efficiently(O(n))
 
+[![Build Status](https://travis-ci.org/incessantmeraki/random-perm.svg?branch=master)](https://travis-ci.org/incessantmeraki/random-perm)
 ## Usage
 
 ### Installation
@@ -27,11 +28,8 @@ returns an array of random permutation efficiently(O(n))
 ### API
 
 #### `rand-perm(n)`
-returns an array with elements from 0 to n shuffled 
+returns an array with elements from 0 to n-1 in a random way 
 
 ## License
 
 MIT
-
-
-
