@@ -19,12 +19,25 @@ function isValid(arr) {
   }
 }
 
-test('test some cases', function (t) {
+test('test valid cases', function (t) {
   t.ok(isValid(randPerm(5)))
   t.ok(isValid(randPerm(10)))
   t.ok(isValid(randPerm(12)))
   t.ok(isValid(randPerm(3)))
   t.ok(isValid(randPerm(1)))
   t.ok(isValid(randPerm(9)))
+  t.end()
+})
+
+test('test invalid cases', function (t) {
+  var data1 = [3, 5, 4, 8, 2]
+  t.notOk(isValid(data1))
+
+  var data2 = [353, 555, 4, 646, 353]
+  t.notOk(isValid(data2))
+
+  var data3 = [0, 2, 1, 3, 4, 5, 5]
+  t.notOk(isValid(data3))
+
   t.end()
 })
